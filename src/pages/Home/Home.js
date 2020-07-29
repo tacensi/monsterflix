@@ -1,11 +1,11 @@
 import React from 'react';
-import dados_iniciais from './data/dados_iniciais.json';
-import Menu from './components/Menu';
-import BannerMain from './components/BannerMain';
-import Carousel from './components/Carousel';
-import Footer from './components/Footer';
+import dados_iniciais from '../../data/dados_iniciais.json';
+import Menu from '../../components/Menu';
+import BannerMain from '../../components/BannerMain';
+import Carousel from '../../components/Carousel';
+import Footer from '../../components/Footer';
 
-function App() {
+function Home() {
   const categorias = dados_iniciais.categorias;
   const categoriasComponents = [];
   categorias.forEach((cat, index) => {
@@ -35,4 +35,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
