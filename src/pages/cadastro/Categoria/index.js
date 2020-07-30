@@ -7,6 +7,13 @@ function CadastroCategoria() {
     <PageDefault>
       <h1>Cadastro de Categoria</h1>
 
+      <form>
+        <label>
+          Nome da categoria
+          <input type="text" />
+        </label>
+      </form>
+
       <Link to="/">
           Voltar pra home
       </Link>

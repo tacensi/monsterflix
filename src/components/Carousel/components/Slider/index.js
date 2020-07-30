@@ -26,6 +26,19 @@ const Container = styled.ul`
   .slick-next {
     right: 16px;
   }
+
+  .slick-list {
+    overflow: inherit;
+  }
+
+  .slick-slide a {
+    transition: transform 150ms ease-in-out;
+
+    &:hover{
+      z-index: 10;
+      transform: scale(1.2);
+    }
+  }
 `;
 
 export const SliderItem = styled.li`
@@ -43,11 +56,11 @@ const Slider = ({ children }) => (
     <SlickSlider
       {...{
         dots: false,
-        infinite: false,
+        infinite: true,
         speed: 300,
         centerMode: false,
         variableWidth: true,
-        adaptiveHeight: true,
+        adaptiveHeight: false,
       }}
     >
       {children}
