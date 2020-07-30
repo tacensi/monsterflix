@@ -4,6 +4,7 @@ import './index.css';
 import Home from './pages/Home/Home';
 import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
+import NotFound from './pages/NotFound';
 import {
   BrowserRouter,
   Switch,
@@ -18,7 +19,7 @@ ReactDOM.render(
         <Route path="/" component={Home} exact />
         <Route path="/cadastro/video" component={CadastroVideo} />
         <Route path="/cadastro/categoria" component={CadastroCategoria} />
-        <Route component={() => (<div>Página 404</div>)} />
+        <Route component={NotFound} />
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,
