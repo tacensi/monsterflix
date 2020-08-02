@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "dev": "concurrently \"react-scripts start\" \"npm run server\"",
-    "server": "json-server --watch db.json --port:8080",
+    "server": "json-server --watch db.json --port 8080",
 
     "build": "react-scripts build",
     "test": "react-scripts test",
