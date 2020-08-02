@@ -2,8 +2,8 @@
   "categorias": [
     {
       "titulo": "Os clássicos",
-      "link": "https://www.youtube.com/playlist?list=PLm1HLShlNLCLIONqFtFqeGFH-qtA9mpW5",
-      "cor": "#6BD1FF",
+      "link": "https://www.classics.com",
+      "cor": "#white",
       "link_extra": {
         "text": "Playlist de clássicos da Universal",
         "url": "https://www.youtube.com/playlist?list=PLm1HLShlNLCLIONqFtFqeGFH-qtA9mpW5"
@@ -89,85 +89,93 @@
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Frankenstein",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
+        "text": "O Prometeu moderno",
         "url": "https://www.alura.com.br/formacao-data-science"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Frankenstein (1931)",
+          "url": "https://www.youtube.com/watch?v=rfxmueoqLhM"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "A Noiva de Frankenstein",
+          "url": "https://www.youtube.com/watch?v=z0aXw-I0xsQ"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Mary Shelley's Frankenstein (1994)",
+          "url": "https://www.youtube.com/watch?v=NQt9BbylCwI"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "The Curse of Frankenstein (1957)",
+          "url": "https://www.youtube.com/watch?v=QxNVNGydx5U"
+        },
+        {
+          "titulo": "I, Frankenstein",
+          "url": "https://www.youtube.com/watch?v=Zr4T3dlE1dI"
+        },
+        {
+          "titulo": "Son of Frankenstein 1939",
+          "url": "https://www.youtube.com/watch?v=v6B7zDZe9gw"
         }
       ]
     },
     {
-      "titulo": "Filmes",
-      "cor": "orange",
+      "titulo": "Dracula",
+      "cor": "yellow",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Dracula (1931)",
+          "url": "https://www.youtube.com/watch?v=r_uJHpJ7yrM"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Dracula Untold",
+          "url": "https://www.youtube.com/watch?v=_2aWqecTTuE"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Bram Stoker's Dracula",
+          "url": "https://www.youtube.com/watch?v=CiWsfO5HjEo"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Dracula (1992)",
+          "url": "https://www.youtube.com/watch?v=OtE5anrIsso"
         }
       ]
     },
     {
-      "titulo": "Games",
+      "titulo": "A Múmia",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "The Mummy (1932)",
+        "url": "https://www.mummy.com"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "The Mummy (1932)",
+          "url": "https://www.youtube.com/watch?v=YyxYWb2yLZQ"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "The Mummy (1999)",
+          "url": "https://www.youtube.com/watch?v=h3ptPtxWJRs"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "The Mummy (1959)",
+          "url": "https://www.youtube.com/watch?v=nzelDvRug9w"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "The Mummy's Hand (1940)",
+          "url": "https://www.youtube.com/watch?v=blRrTnq6TBg"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
+          "titulo": "The Mummy Returns (2001)",
           "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
         }
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "Lobisomen",
       "cor": "#6b5be2",
       "link_extra": {
         "text": "Curso sobre aprendizado na Alura",
@@ -175,24 +183,24 @@
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "Howl (2015)",
+          "url": "https://www.youtube.com/watch?v=FFmUBiMIBVs"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "Wolves",
+          "url": "https://www.youtube.com/watch?v=kxOHowSMA0w"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "An American Werewolf in London",
+          "url": "https://www.youtube.com/watch?v=bRVH3z_erjA"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "Hunter's Moon (2020)",
+          "url": "https://www.youtube.com/watch?v=8EWdxn58gBg"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Werewolf of London (1935)",
+          "url": "https://www.youtube.com/watch?v=Eg4Neu6wUBo"
         }
       ]
     }

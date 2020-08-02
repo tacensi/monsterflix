@@ -35,6 +35,10 @@ const flickerAnimation = keyframes`
   ${flicker()}
 `;
 
+const flickerAnimation1 = keyframes`
+  ${flicker()}
+`;
+
 
 export const Title = styled.h3`
   font-style: normal;
@@ -50,7 +54,7 @@ export const Title = styled.h3`
   position: relative;
   text-shadow: 0 0 13px rgba(255,255,255,1);
   animation-name: ${flickerAnimation};
-  animation-duration: 8s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 
   &::after{
@@ -66,6 +70,19 @@ export const Title = styled.h3`
     opacity: .3;
     transform: translateX(-50%);
     border-radius: 50px;
+  }
+
+  section:nth-of-type(4n+1) & {
+    animation-name: ${flickerAnimation1};
+  }
+
+  section:nth-of-type(4n + 2) & {
+    animation-direction: reverse;
+  }
+
+  section:nth-of-type(4n+3) & {
+    animation-name: ${flickerAnimation1};
+    animation-direction: reverse;
   }
 
   @media (max-width: 800px) {
