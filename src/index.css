@@ -5,18 +5,18 @@
 }
 
 :root{
-  --primary: #2A7AE4;
+  --primary: #2bff00;
   --black: #000000;
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;
   --grayMedium: #e5e5e5;
   --white: #FFFFFF;
-  --frontEnd: #6BD1FF;
-  --backEnd: #00C86F;
+  --frontEnd: #ffea00;
+  --backEnd: #9a0101;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;

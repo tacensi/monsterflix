@@ -25,7 +25,7 @@ function Home() {
       <BannerMain
         videoTitle={dados_iniciais.categorias[0].videos[0].titulo}
         url={dados_iniciais.categorias[0].videos[0].url}
-        videoDescription={"O que é Front-end? Trabalhando na área"}
+        videoDescription={"From the Amazon's forbidden depths came the Creature from the Black Lagoon "}
       />
 
       {categoriasComponents}

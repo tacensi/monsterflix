@@ -33,7 +33,7 @@ ContentAreaContainer.Category = styled.h1`
   display: flex;
   align-items: center;
   text-align: center;
-  display: inline-block; 
+  display: inline-block;
   padding: 25px;
   line-height: 1;
   border-radius: 4px;
@@ -52,13 +52,22 @@ ContentAreaContainer.Description = styled.p`
 `;
 
 ContentAreaContainer.Title = styled.h2`
-  font-style: normal;
-  font-weight: 300;
-  font-size: 40px;
-  line-height: 1;
-  margin-top: 0;
-  margin-bottom: 32px;
+    background-image:
+      linear-gradient(
+        to bottom,
+        var(--primary) 0%,
+        #033100 100%
+      );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+      background-clip: text;
+    background-clip: text;
+    font: 100 60px Creepster, Helvetica, sans-serif;
+    color: #fff;
 
+
+  }
   @media (max-width: 800px) {
     font-size: 32px;
     text-align: center;
@@ -69,7 +78,7 @@ export const BannerMainContainer = styled.section`
   height: 80vh;
   position: relative;
   color: #fff;
-  background-image: ${({ backgroundImage }) => `url(${backgroundImage})`}; 
+  background-image: ${({ backgroundImage }) => `url(${backgroundImage})`};
   background-size: cover;
   background-position: center;
   @media (max-width: 800px) {

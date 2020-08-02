@@ -1,75 +1,90 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "titulo": "Os clássicos",
+      "link": "https://www.youtube.com/playlist?list=PLm1HLShlNLCLIONqFtFqeGFH-qtA9mpW5",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Playlist de clássicos da Universal",
+        "url": "https://www.youtube.com/playlist?list=PLm1HLShlNLCLIONqFtFqeGFH-qtA9mpW5"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Creature from the Black Lagoon",
+          "url": "https://www.youtube.com/watch?v=svyPswixryM"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Dracula",
+          "url": "https://www.youtube.com/watch?v=VoaMw91MC9k"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "The Bride of Frankenstein",
+          "url": "https://www.youtube.com/watch?v=z0aXw-I0xsQ"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Cry of the Werewolf",
+          "url": "https://www.youtube.com/watch?v=CyfMKsSIaZc"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Dr Jekyll and Mr. Hyde (1931)",
+          "url": "https://www.youtube.com/watch?v=GynMi0E7B5g"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Frankenstein",
+          "url": "https://www.youtube.com/watch?v=AkSbwiKP3mo"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Frankenstein Meets the Wolf Man",
+          "url": "https://www.youtube.com/watch?v=_Kaa88LIwJo"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
+          "titulo": "Creature from the Black Lagoon",
+          "url": "https://www.youtube.com/watch?v=svyPswixryM"
+        },
+        {
+          "titulo": "The Mummy",
+          "url": "https://www.youtube.com/watch?v=1i6xNScZRP4"
+        }
       ]
     },
     {
-      "titulo": "Back End",
-      "cor": "#00C86F",
+      "titulo": "Documentários",
+      "cor": "#8a0303",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Documentários sobre os clássicos filmes de terror da Universal"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "The Road To Dracula",
+          "url": "https://www.youtube.com/watch?v=wOJTG2ZW0vw"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "The Frankenstein Files - How Hollywood Made A Monster",
+          "url": "https://www.youtube.com/watch?v=UPUM7fT528U"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Mummy Dearest - A Horror Tradition Unearthed",
+          "url": "https://www.youtube.com/watch?v=bc4yVk05QGw"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        }, 
+          "titulo": "Now You See Him - The Invisible Man Revelead",
+          "url": "https://www.youtube.com/watch?v=pfK9w5cfhOk"
+        },
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "She´s Alive - Creating The Bride Of Frankenstein",
+          "url": "https://www.youtube.com/watch?v=AdJ54dd7NjQ"
+        },
+        {
+          "titulo": "Monster By Moonlight - The Imortal Saga Of The Wolfman",
+          "url": "https://www.youtube.com/watch?v=xnCDa3mXGKE"
+        },
+        {
+          "titulo": "The Opera Ghost - A Phantom Unmasked",
+          "url": "https://www.youtube.com/watch?v=BArBzHe-iJo"
+        },
+        {
+          "titulo": "Back to The Black Lagoon - A Creature Chronice",
+          "url": "https://www.youtube.com/watch?v=TsU8YoBmRTA"
         }
       ]
     },
