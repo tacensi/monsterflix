@@ -1,23 +1,24 @@
 import styled from 'styled-components';
 
 const Button = styled.button`
-  color: var(--white);
-  border: 1px solid var(--white);
-  box-sizing: border-box;
+  padding: 15px 25px;
+  background: rgba(255,255,255,.07);
+  font: 900 18px Lato, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.5);
+  border: rgba(255,255,255,.5) 3px solid;
+  border-radius: 4px;
+  transition: all 300ms ease;
   cursor: pointer;
-  padding: 16px 24px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  outline: none;
-  border-radius: 5px;
-  text-decoration: none;
   display: inline-block;
-  transition: opacity .3s;
+  text-decoration: none;
 
   &:hover,
   &:focus {
-    opacity: .5;
+    border-color: var(--white);
+    text-shadow: 0 0 10px rgba(255,255,255,.75);
+    color: var(--white);
+    box-shadow: 0 0 20px rgba(255,255,255,.75);
   }
   `;
 
