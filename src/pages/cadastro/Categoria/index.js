@@ -29,16 +29,19 @@ function CadastroCategoria() {
 
 
   useEffect(() => {
-    const URL = 'http://localhost:8080/categorias';
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://monsterflix.herokuapp.com/categorias';
+
 
     fetch(URL)
       .then(async (resposta) => {
-        if (resposta.ok) {
-          const respostaJson = await resposta.json()
-          setCategorias([...respostaJson, ]);
-          return;
-        }
-        throw new Error('Não foi possível pegar os dados');
+        const respostaJson = await resposta.json()
+        setCategorias([...respostaJson, ]);
+        return;
+      })
+      .catch((error)=> {
+        console.log(URL, error);
       });
 
   }, []);
@@ -95,7 +98,7 @@ function CadastroCategoria() {
 
       {categorias.length === 0 && (
         <div>
-          <blink>Loading...</blink>
+          Loading...
         </div>
       )}
 
