@@ -125,6 +125,10 @@
     {
       "titulo": "Dracula",
       "cor": "yellow",
+      "link_extra": {
+        "text": "O conde da transilvânia que não brilha no sol",
+        "url": "https://www.mummy.com"
+      },
       "videos": [
         {
           "titulo": "Dracula (1931)",
@@ -148,7 +152,7 @@
       "titulo": "A Múmia",
       "cor": "red",
       "link_extra": {
-        "text": "The Mummy (1932)",
+        "text": "A maldição egípcia de 5.000 anos de idade",
         "url": "https://www.mummy.com"
       },
       "videos": [
@@ -178,7 +182,7 @@
       "titulo": "Lobisomen",
       "cor": "#6b5be2",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
+        "text": "Em noites de lua cheia, o sétimo filho do sétimo filho uiva solitário...",
         "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
       },
       "videos": [
